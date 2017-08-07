@@ -13,6 +13,8 @@ class CategoryCell: UICollectionViewCell, UICollectionViewDataSource, UICollecti
     
     private let cellId = "appCellId"
     
+    var featuredAppsController: FeaturedAppsController?
+    
     var appCategory: AppCategory? {
         didSet {
             
@@ -105,6 +107,14 @@ class CategoryCell: UICollectionViewCell, UICollectionViewDataSource, UICollecti
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         return CGSize(width: 100, height: frame.height - 37)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        if let app = appCategory?.apps?[indexPath.item] {
+            
+            featuredAppsController?.showAppDetailsController(app: app)
+        }
     }
     
     required init?(coder aDecoder: NSCoder) {

@@ -44,12 +44,13 @@ class FeaturedAppsController: UICollectionViewController, UICollectionViewDelega
         
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: largeCellId, for: indexPath) as! LargeCategoryCell
             cell.appCategory = appCategories?[indexPath.item]
-            
+    
             return cell
         }
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! CategoryCell
         cell.appCategory = appCategories?[indexPath.item]
+        cell.featuredAppsController = self
         
         return cell
     }
@@ -84,6 +85,13 @@ class FeaturedAppsController: UICollectionViewController, UICollectionViewDelega
         return header
     }
     
+    func showAppDetailsController(app: App) {
+        
+        let layout = UICollectionViewFlowLayout()
+        let appDetailsController = AppDetailsController(collectionViewLayout: layout)
+        appDetailsController.app = app
+        navigationController?.pushViewController(appDetailsController, animated: true)
+    }
     
 
 }

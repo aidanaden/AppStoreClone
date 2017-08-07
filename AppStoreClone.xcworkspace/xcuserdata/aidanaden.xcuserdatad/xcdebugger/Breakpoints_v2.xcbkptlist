@@ -35,5 +35,161 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppStoreClone/AppDetailsController.swift"
+            timestampString = "523795748.026835"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
+            landmarkName = "addConstraintsWithFormat(format:views:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppStoreClone/AppDetailsController.swift"
+            timestampString = "523793356.309337"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "app"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppStoreClone/ScreenshotCell.swift"
+            timestampString = "523794053.110538"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppStoreClone/AppDetailsController.swift"
+            timestampString = "523795748.026835"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "AppDetailDescriptionCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppStoreClone.AppDetailHeader.__deallocating_deinit"
+                  moduleName = "AppStoreClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aidanaden/Desktop/AppStoreClone/AppStoreClone/AppDetailsController.swift"
+                  timestampString = "523794251.105662"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppStoreClone.AppDetailHeader.__ivar_destroyer"
+                  moduleName = "AppStoreClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aidanaden/Desktop/AppStoreClone/AppStoreClone/AppDetailsController.swift"
+                  timestampString = "523794251.111546"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppStoreClone.AppDetailHeader.init (frame : __C.CGRect) -&gt; AppStoreClone.AppDetailHeader"
+                  moduleName = "AppStoreClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aidanaden/Desktop/AppStoreClone/AppStoreClone/AppDetailsController.swift"
+                  timestampString = "523794251.117545"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppStoreClone.AppDetailHeader.__allocating_init (frame : __C.CGRect) -&gt; AppStoreClone.AppDetailHeader"
+                  moduleName = "AppStoreClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aidanaden/Desktop/AppStoreClone/AppStoreClone/AppDetailsController.swift"
+                  timestampString = "523794251.124244"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppStoreClone.AppDetailHeader.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;AppStoreClone.AppDetailHeader&gt;"
+                  moduleName = "AppStoreClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aidanaden/Desktop/AppStoreClone/AppStoreClone/AppDetailsController.swift"
+                  timestampString = "523794251.130205"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppStoreClone.AppDetailHeader.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;AppStoreClone.AppDetailHeader&gt;"
+                  moduleName = "AppStoreClone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aidanaden/Desktop/AppStoreClone/AppStoreClone/AppDetailsController.swift"
+                  timestampString = "523794251.138294"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

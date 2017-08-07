@@ -15,6 +15,18 @@ class App: NSObject {
     var category: String?
     var price: NSNumber?
     var imageName: String?
+    var screenshots: [String]?
+    var desc: String?
+    var appInformation: Any?
+    
+    override func setValue(_ value: Any?, forKey key: String) {
+        
+        if key == "description" {
+            self.desc = value as? String
+        } else {
+            super.setValue(value, forKey: key)
+        }
+    }
     
 }
 
